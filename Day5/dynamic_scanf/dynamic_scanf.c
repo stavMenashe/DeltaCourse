@@ -21,6 +21,13 @@ int main() {
     return 0;
 }
 
+/*------------------------------------------------------
+* Function Name - dyn_scanf
+* Function Purpose - Gets an input from the user and returns it.
+* Parameters –
+* Return Values - The given input.
+* Author - Stav Menashe
+-------------------------------------------------------*/
 char* dyn_scanf(void){
     char *text = NULL;
     char *tmp_text = NULL;
